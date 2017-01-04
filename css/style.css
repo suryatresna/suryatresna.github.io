@@ -1,0 +1,36 @@
+body {
+	background: #000 !important;
+}
+
+.navbar-default {
+	background: rgba(255,255,255,.1) !important;
+	border: none !important;
+	border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+}
+
+.navbar-default a {
+	color : #fff !important;
+}
+
+.jumbo {
+	color : #fff;
+	text-align: center;
+	font-size: 36px;
+}
+
+.jumbo a {
+	color: #fff;
+}
+
+@media (min-width: 768px) {
+	.jumbo {
+		margin-top: 20%;
+	}
+}
+@media (max-device-width: 480px) {
+	.jumbo {
+		margin-top: 55%;
+	}
+}
